@@ -38,7 +38,7 @@ const deepMenu = [
         {
           title: 'Our Team',
           link: '/blog/our-team',
-          icon: 'fa fa-group',
+          icon: 'fas fa-users',
           children: [
             {
               title: 'Leyla Sparks',
@@ -68,6 +68,16 @@ const deepMenu = [
               icon: 'fa fa-female',
             },
           ]
+        },
+        {
+          title: 'Rewards',
+          link: '/blog/rewards',
+          icon: 'fas fa-trophy',
+        },
+        {
+          title: 'Certificates',
+          link: '/blog/certificates',
+          icon: 'fas fa-certificate',
         },
       ]
     },
