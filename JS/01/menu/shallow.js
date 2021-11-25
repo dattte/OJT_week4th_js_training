@@ -2,6 +2,7 @@ const shallowMenu = [
     {
       title: 'Dashboard',
       link: '/dashboard',
+      icon: 'fas fa-tachometer-alt',
       children: [
         {
           title: 'Tool',
@@ -24,6 +25,7 @@ const shallowMenu = [
     {
       title: 'Sales',
       link: '/sales',
+      icon: 'fas fa-truck',
       children: [
         {
           title: 'New Sales',
@@ -46,6 +48,7 @@ const shallowMenu = [
     {
       title: 'Messages',
       link: '/messages',
+      icon: 'far fa-envelope',
       children: [
         {
           title: 'Inbox',
@@ -68,6 +71,7 @@ const shallowMenu = [
     {
       title: 'Users',
       link: '/users',
+      icon: 'fas fa-users',
       children: [
         {
           title: 'New User',
@@ -90,6 +94,7 @@ const shallowMenu = [
     {
       title: 'Settings',
       link: '/settings',
+      icon: 'fas fa-cogs',
       children: [
         {
           title: 'Databases',

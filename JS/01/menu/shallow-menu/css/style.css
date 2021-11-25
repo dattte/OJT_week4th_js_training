@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #eeeeee; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+.menu {
+  padding: 0; }
+  .menu__item {
+    width: 300px;
+    list-style-type: none; }
+    .menu__item .menu-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      cursor: default;
+      background-color: #2D394D; }
+      .menu__item .menu-item.-has-child {
+        border-bottom: 3px solid transparent; }
+        .menu__item .menu-item.-has-child.active {
+          background-color: #242E3F; }
+          .menu__item .menu-item.-has-child.active ~ .menu-item__children {
+            display: block; }
+          .menu__item .menu-item.-has-child.active .menu-item__arrow {
+            color: #4AA3F2;
+            transform: rotate(180deg);
+            transition: all 0.5s ease 0s; }
+        .menu__item .menu-item.-has-child:hover {
+          border-bottom: 3px solid #3C5785; }
+      .menu__item .menu-item__icon {
+        padding: 15px 10px;
+        padding-left: 30px;
+        font-size: 20px; }
+        .menu__item .menu-item__icon i {
+          font-size: 20px; }
+      .menu__item .menu-item__content {
+        width: 100%; }
+        .menu__item .menu-item__content p {
+          margin: 30px 15px; }
+      .menu__item .menu-item__children {
+        display: none;
+        background-color: #316B9D; }
+        .menu__item .menu-item__children .menu-item {
+          background-color: #4AA3F2; }
+          .menu__item .menu-item__children .menu-item__content {
+            padding-left: 10px;
+            width: 100%; }
+          .menu__item .menu-item__children .menu-item:hover {
+            width: 295px;
+            margin-left: 5px;
+            background-color: #4092DD; }
+      .menu__item .menu-item__arrow {
+        padding: 10px;
+        margin-right: 20px;
+        transform: rotate(90deg);
+        transition: all 0.5s ease 0s; }
+    .menu__item:hover > .menu-item {
+      background-color: #242E3F; }
